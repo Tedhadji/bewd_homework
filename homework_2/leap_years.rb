@@ -7,6 +7,7 @@
 
 puts "What's the starting year?"
 start_year = gets.chomp.to_i
+
 puts "What's the ending year?"
 end_year = gets.chomp.to_i
 
@@ -15,7 +16,7 @@ leap_years = [] #empty list of leap years
 year_i = start_year #set initial year, placeholder for iteration
 
 
-while year_i <= end_year
+while (year_i <= end_year)
 	#Looping through each year from user input start to user input end
 	if (year_i%4 == 0 && year_i % 100 != 0)
 		# Checking if divisible by 4 AND is not divisible by 100. If both are true then its a leap year.

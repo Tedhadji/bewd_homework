@@ -26,17 +26,17 @@
 
 puts "Enter an animal that makes a sound?"
 name = gets.chomp.downcase
-puts name + " is a great animal"
+puts "#{ name } is a great animal"
 
-puts "What sound does " + name + " make?"
+puts "What sound does #{ name } make?"
 sound = gets.chomp.downcase.strip
-puts sound + " is an interesting sound"
+puts "#{ sound } is an interesting sound"
 
-puts "How many times does a " + name + " make a " + sound
+puts "How many times does a #{ name } make a #{ sound }"
 times = gets.chomp.to_i
 
 
-puts "The " + name + " " + (sound + ", ") * times
+puts "The #{ name } says" + " #{ sound }," * times
 
 
 

@@ -4,9 +4,9 @@
 beer_on_the_wall = 99
 
 while beer_on_the_wall > 1
-    puts beer_on_the_wall.to_s + " bottles of beer on the wall, " + beer_on_the_wall.to_s + " bottles of beer."
+    puts "#{ beer_on_the_wall } bottles of beer on the wall, #{ beer_on_the_wall } bottles of beer."
 		beer_on_the_wall -= 1
-		puts "Take one down and pass it around " + beer_on_the_wall.to_s + " bottles of beer on the wall."
+		puts "Take one down and pass it around #{ beer_on_the_wall } bottles of beer on the wall."
 end
 puts "1 bottle of beer on the wall, 1 bottle of beer. Take it down pass it around, no more bottles of beer on the wall."
 puts "No more bottles of beer on the wall, no more bottles of beer. 
